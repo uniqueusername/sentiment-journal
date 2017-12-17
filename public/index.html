@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Journal</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="login()">
+    <div id="wrapper">
+      <h1 id="journal-header">Journal</h1>
+      <textarea id="journal-area"></textarea>
+      <button id="back" class="nav-buttons" onclick="previousJournal()">Back</button>
+      <button id="next" class="nav-buttons" onclick="nextJournal()">Next</button>
+      <button id="submit-button" class="nav-buttons" onclick="submitJournal()">Save</button>
+      <div id="entry-stats-wrapper">
+        <p id="score"></p>
+        <p id="positive-words"></p>
+        <p id="negative-words"></p>
+        <a href="./stats.html"><p>See your sentiment statistics over time.</p></a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>

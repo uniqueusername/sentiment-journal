@@ -1,0 +1,58 @@
+body {
+  background-color: #FFFFFF;
+  font-family: arial;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#journal-header {
+  font-family: arial;
+}
+
+#journal-area {
+  width: 40vw;
+  height: 40vh;
+
+  max-width: 50%;
+
+  border: none;
+  background-color: #FFDBC9;
+  font-family: arial;
+  padding: 15px;
+}
+
+.nav-buttons {
+  width: 5vw;
+  height: 5vw;
+  max-width: 50%;
+  background-color: #FFDBC9;
+  border: none;
+  cursor: grab;
+  margin: 15px;
+
+  transition: background-color 0.05s;
+  -webkit-transition: background-color 0.05s
+}
+
+.nav-buttons:hover {
+  background-color: #FFF3C9;
+}
+
+#back {
+  position: absolute;
+  left: 22%;
+}
+
+#next {
+  position: absolute;
+  right: 22%;
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "journal",
+  "version": "0.1.0",
+  "description": "journal sentiment analysis",
+  "repository": "https://github.com/uniqueusername/foodr",
+  "author": "Aryan Jha <aryan@jha.io>",
+  "dependencies": {
+    "express": "*",
+    "sentiment": "*",
+    "socket.io": "*",
+    "vis": "*",
+    "json-beautify": "*"
+  },
+  "main": "server",
+  "license": "MIT"
+}
